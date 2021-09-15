@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { black } from "styles/colors";
+import { black } from "../../styles/colors";
 
 export const TextBase = styled.p`
   margin: ${(props) => props.margin || ""};
@@ -11,6 +11,6 @@ export const TextBase = styled.p`
   text-transform: ${(props) => props.textTransform || ""};
 `;
 
-export const TextBasedBold = styled(TextBase).attrs((props) => ({
+export const TextBaseBold = styled(TextBase).attrs((props) => ({
   fontWeight: props.fontWeight || 700,
 }))``;
