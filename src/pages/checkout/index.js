@@ -35,7 +35,6 @@ const Checkout = () => {
         <RegularText>Regular text</RegularText>
         <SmallText>Small text</SmallText>
         <CaptionText>Caption text</CaptionText>
-
         <Link to="/">
           <PrimaryButton backgroundColor="blue" margin="0 0.8rem">
             Primary
